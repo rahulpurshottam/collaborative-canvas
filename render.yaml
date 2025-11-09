@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: flam-drawing-app
+    name: collaborative-canvas
     env: node
     buildCommand: npm install && npm run build
     startCommand: npm start
